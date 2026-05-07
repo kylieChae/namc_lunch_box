@@ -22,10 +22,13 @@ RESTAURANTS = [
     {"name": "오가삼계탕", "emoji": "🐔"},
     {"name": "온담", "emoji": "🔥"},
     {"name": "충정상회", "emoji": "🏪"},
+    {"name": "버거킹", "emoji": "🍔"},
     {"name": "날아라분식", "emoji": "✈️"},
     {"name": "상아국시", "emoji": "🍝"},
     {"name": "권가네", "emoji": "👨‍🍳"},
     {"name": "돌된장", "emoji": "🪨"},
+    {"name": "롯데리아", "emoji": "🍔"},
+    {"name": "서브웨이", "emoji": "🍔"},
     {"name": "점심한식뷔페", "emoji": "🍽️"},
     {"name": "봄날의정원", "emoji": "🌸"},
 ]
@@ -34,7 +37,7 @@ RESTAURANTS = [
 LOADING_MESSAGES = [
     "신중하게 고르는 중...",
     "운명의 음식점을 찾는 중...",
-    "오늘의 행운을 계산 중...",
+    "칼퇴 기원 중...",
     "메뉴 셔플 중 🔀",
 ]
 
@@ -157,6 +160,10 @@ div.stButton > button:hover {
     border: none !important;
 }
 
+footer, #MainMenu, header {visibility: hidden !important;}
+[data-testid="stToolbar"] {display: none !important;}
+div[data-testid="stBottom"] {display: none !important;}
+            
 </style>
 """, unsafe_allow_html=True)
 
@@ -219,5 +226,4 @@ tags_html = "".join([f'<span class="tag">{r["emoji"]} {r["name"]}</span>' for r 
 st.markdown(f'{tags_html}</div>', unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
-#st.caption("음식점을 추가/수정하려면 `app.py`의 RESTAURANTS 목록을 편집하세요 ✏️")
 st.caption("음식점을 추가/수정하려면 IT개발실 숮과장에게 문의하세요. ✏️")
