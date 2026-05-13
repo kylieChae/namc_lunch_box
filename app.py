@@ -32,8 +32,13 @@ RESTAURANTS = [
     {"name": "점심한식뷔페", "emoji": "🍽️"},
     {"name": "봄날의정원", "emoji": "🌸"},
     {"name": "모범떡볶이", "emoji": "🍢"},
-    {"name": "백암순대국", "emoji": "🍶"}
-]
+    {"name": "백암순대국", "emoji": "🍶"},
+    {"name": "이화수육개장", "emoji": "🥣"},
+    {"name": "연어한끼", "emoji": "🐟"},
+    {"name": "함흥냉면", "emoji": "🍜"},
+    {"name": "맨인문", "emoji": "🍖"},
+    {"name": "원당감자탕", "emoji": "🥔"}
+    ]
 
 
 LOADING_MESSAGES = [
