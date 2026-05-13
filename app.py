@@ -31,6 +31,7 @@ RESTAURANTS = [
     {"name": "서브웨이", "emoji": "🍔"},
     {"name": "점심한식뷔페", "emoji": "🍽️"},
     {"name": "봄날의정원", "emoji": "🌸"},
+    {"name": "모범떡볶이", "emoji": "🍢"}
 ]
 
 
@@ -226,4 +227,5 @@ tags_html = "".join([f'<span class="tag">{r["emoji"]} {r["name"]}</span>' for r 
 st.markdown(f'{tags_html}</div>', unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
+#st.caption("음식점을 추가/수정하려면 `app.py`의 RESTAURANTS 목록을 편집하세요 ✏️")
 st.caption("음식점을 추가/수정하려면 IT개발실 숮과장에게 문의하세요. ✏️")
