@@ -31,7 +31,8 @@ RESTAURANTS = [
     {"name": "서브웨이", "emoji": "🍔"},
     {"name": "점심한식뷔페", "emoji": "🍽️"},
     {"name": "봄날의정원", "emoji": "🌸"},
-    {"name": "모범떡볶이", "emoji": "🍢"}
+    {"name": "모범떡볶이", "emoji": "🍢"},
+    {"name": "백암순대국", "emoji": "🍶"}
 ]
 
 
