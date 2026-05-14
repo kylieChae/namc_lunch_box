@@ -37,7 +37,8 @@ RESTAURANTS = [
     {"name": "연어한끼", "emoji": "🐟"},
     {"name": "함흥냉면", "emoji": "🍜"},
     {"name": "맨인문", "emoji": "🍖"},
-    {"name": "원당감자탕", "emoji": "🥔"}
+    {"name": "원당감자탕", "emoji": "🥔"},
+    {"name": "춘리마라탕", "emoji": "🍜"}
     ]
 
 
