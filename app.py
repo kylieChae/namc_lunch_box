@@ -22,7 +22,6 @@ RESTAURANTS = [
     {"name": "오가삼계탕", "emoji": "🐔"},
     {"name": "온담", "emoji": "🔥"},
     {"name": "충정상회", "emoji": "🏪"},
-    {"name": "버거킹", "emoji": "🍔"},
     {"name": "날아라분식", "emoji": "✈️"},
     {"name": "상아국시", "emoji": "🍝"},
     {"name": "권가네", "emoji": "👨‍🍳"},
